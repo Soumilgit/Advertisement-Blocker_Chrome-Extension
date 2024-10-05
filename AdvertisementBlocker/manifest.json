@@ -1,0 +1,15 @@
+{
+    "name": "SoumilDev Adblocker",
+    "version": "1.0",
+    "description": "SoumilDev Adblocker Tutorial",
+    "permissions": ["webRequest", "webRequestBlocking", "<all_urls>"],
+    "background": {
+        "scripts": ["background.js"]
+    },
+    "icons": {
+        "16": "icons/logo_18x18.jpg",
+        "48": "icons/logo_20x20.png",
+        "128": "icons/logo_25x25.jpg"
+    },
+    "manifest_version": 2
+}
